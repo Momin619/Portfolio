@@ -81,21 +81,71 @@ canvas {
   color: #13e8e9;
 }
 
+.nav-link:nth-child(1) {
+  /* background-cred; */
+  border-radius: 20px;
+  background-color: transparent;
+  color: black;
+  transition: 0.3s all;
+}
+
+.nav-link:nth-child(1):hover {
+  box-shadow: 1px 1px 1px 1px black;
+  background-color: white;
+}
+.nav-link:nth-child(2) {
+  border-radius: 20px;
+  background-color: transparent;
+  color: black;
+  transition: 0.3s all;
+}
+
+.nav-link:nth-child(2):hover {
+  box-shadow: 1px 1px 1px 1px black;
+  background-color: white;
+}
+.nav-link:nth-child(3) {
+  border-radius: 20px;
+  background-color: transparent;
+  color: black;
+  transition: 0.3s all;
+}
+
+.nav-link:nth-child(3):hover {
+  box-shadow: 1px 1px 1px 1px black;
+  background-color: white;
+}
+
+.nav-link:nth-child(4) {
+  border-radius: 20px;
+  background-color: transparent;
+  color: black;
+  transition: 0.3s all;
+}
+
+.nav-link:nth-child(4):hover {
+  box-shadow: 1px 1px 1px 1px black;
+  background-color: white;
+}
+
 .nav-link {
   color: white;
   font-size: 1rem;
   cursor: pointer;
   letter-spacing: 3px;
-  transition: 0.2s all;
+  transition: 0.3s all;
 }
 .navbar {
-  background-color: #3218b6;
+  background-color: var(--bs-blue);
   width: 100%;
+  height: 60px;
 }
 
 .nav-link:hover {
   color: black;
-  border-bottom: 1px solid white;
+
+  border-radius: 20px;
+  background-color: white;
 }
 
 .navbar-nav {
