@@ -104,17 +104,17 @@ canvas {
   box-shadow: 1px 1px 1px 1px black;
   background-color: white;
 }
+.nav-link:nth-child(3):hover {
+  box-shadow: 1px 1px 1px 1px black;
+  background-color: white;
+}
+
 .nav-link:nth-child(3) {
   border-radius: 20px;
   background-color: transparent;
   color: black;
   transition: 0.3s all;
 }
-bfghfghfghfghfgh .nav-link:nth-child(3):hover {
-  box-shadow: 1px 1px 1px 1px black;
-  background-color: white;
-}
-
 .nav-link:nth-child(4) {
   border-radius: 20px;
   background-color: transparent;
@@ -150,4 +150,21 @@ bfghfghfghfghfgh .nav-link:nth-child(3):hover {
 .navbar-nav {
   display: flex;
   gap: 1.5rem;
+}
+
+.skills {
+  background-color: #3218b6;
+  height: 100vh;
+  width: 100%;
+  border: 2px solid red;
+  position: absolute;
+  z-index: 33;
+  top: 100%;
+}
+
+.title .header {
+  color: var(--bs-info);
+  letter-spacing: 3px;
+  font-size: 4rem;
+  text-shadow: 2px 2px 2px rgb(68, 129, 141);
 }
